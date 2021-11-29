@@ -2779,8 +2779,6 @@
 
     aput v3, v2, v3
 
-    invoke-static {v2}, Landroid/util/OpFeatures;->isSupport([I)Z
-
     move-result v2
 
     if-eqz v2, :cond_0
